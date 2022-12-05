@@ -1,0 +1,54 @@
+.parent{
+    padding-top: 2rem;
+   
+    
+    height: 100vh;
+   
+}
+.parent h1{
+    color: rgb(0, 166, 255);
+}
+.About{
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.l img{
+    margin: 1rem;
+    scale: 1.5;
+}
+.logo{
+    margin-top: 5rem;
+}
+.logo a img{
+ height: 3rem;
+ width: 3rem;
+ border-radius: 100%;
+}
+.r{ 
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 1px ;
+        padding: 1rem;
+        box-shadow: 0 0 40px -10px #000;
+    background: #e6e6e6;
+   
+}
+.r a{
+    text-decoration: none;
+   border: 3px solid gainsboro;
+   padding: .3rem;
+   border-radius: 10%;
+  background-color:rgb(24, 83, 137);
+  color: aliceblue;
+}
+.r a:hover{
+    font-weight: bold;
+    background-color:rgb(24, 83, 137);
+}
+.r h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+a:hover{cursor: pointer;}

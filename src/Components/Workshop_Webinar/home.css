@@ -1,0 +1,33 @@
+h1{
+   
+    font-family: "Sofia",
+        sans-serif;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+.purpose{
+    margin: 2rem;
+   
+    display: flex;
+    gap: 4rem;
+}
+.purpose img{
+    height: 15rem;
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+.right{
+    margin-top: 10rem;
+}
+/* #disease{
+    margin-bottom: 10rem;
+} */
+.purpose p {
+    margin-bottom: 5rem;
+}
+#care{
+    margin-top: 5rem;
+}
+#connect{
+    margin-top: 8rem;
+}
