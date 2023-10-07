@@ -1,5 +1,5 @@
 import { Button } from '@mui/material';
-import React, {useEffect,useState } from 'react'
+import React, {useState } from 'react'
 import './pcard.css'
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
@@ -78,7 +78,7 @@ export default function Pcard({ email, contact, description, rlink, type, userId
           <div className="card-top">
             <img
               src={Pic}
-              alt="Image"
+              alt="Pic"
             />
           </div>
           <div className="card-info">

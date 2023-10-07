@@ -160,7 +160,9 @@ export default function Connect() {
           style={{ width: "30rem" }}
         >
           <textarea
-            disabled
+          onChange={(e) =>{ handleOpen(); console.log('clicked');
+          e.target.value = ""}}
+          onClick={() =>{ handleOpen(); console.log('clicked');}}
             placeholder="Click to Post..."
             type="text"
             style={{

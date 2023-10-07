@@ -1,6 +1,6 @@
 
 import './App.css';
-import ResponsiveAppBar from "./Components/Navbar"
+
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./Components/Workshop_Webinar";
 import Connect from "./Components/Cources";
@@ -13,7 +13,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-      {/* <ResponsiveAppBar /> */}
+     
       {location.pathname === "/" ? <Login /> : null}
       <Routes>
         <Route path="/Workshop_Webinar" element={<Home />} />

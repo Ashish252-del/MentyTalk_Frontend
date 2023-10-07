@@ -148,7 +148,9 @@ export default function Blog() {
             style={{ width: "30rem" }}
           >
             <textarea
-              disabled
+            onChange={(e) =>{ handleOpen(); console.log('clicked');
+            e.target.value = ""}}
+            onClick={() =>{ handleOpen(); console.log('clicked');}}
               placeholder="Create a post..."
               type="text"
               style={{

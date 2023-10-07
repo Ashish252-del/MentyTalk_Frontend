@@ -158,12 +158,14 @@ const Home = () => {
           style={{ display: "flex", marginLeft: "5rem", gap: "1rem" }}
         >
           <div
-            onClick={() => handleOpen()}
+            onClick={() =>{ handleOpen(); console.log('clicked');}}
             className="inputbox col-sm-12  col-md-12  col-lg-6"
             style={{ width: "30rem" }}
           >
             <textarea
-              disabled
+              onChange={(e) =>{ handleOpen(); console.log('clicked');
+            e.target.value = ""}}
+            onClick={() =>{ handleOpen(); console.log('clicked');}}
               placeholder="Add now.."
               type="text"
               style={{
@@ -171,7 +173,9 @@ const Home = () => {
                 width: "70%",
                 height: "20vh",
                 borderRadius: "1rem",
+                
               }}
+             
             />
           </div>
           <div className="col-sm-12  col-md-12  col-lg-6">

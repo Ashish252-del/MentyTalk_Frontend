@@ -10,7 +10,7 @@ export default function Card({email,contact,description,rlink,Pic}) {
           
           src={Pic}
           className="card-img-top"
-          alt="Image"
+          alt="Pic"
         />
         <div className="card-body">
           <h6 className="card-title">Email:{email}</h6>

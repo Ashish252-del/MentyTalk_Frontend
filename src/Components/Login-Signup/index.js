@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react'
+import { React, useState } from 'react'
 import axios from "axios";
 import './login.css'
 import { useNavigate } from "react-router-dom";
@@ -111,7 +111,7 @@ export default function Login() {
   const onSignup = async(e)=> {
     try {
       e.preventDefault();
-      if(reg.password!=reg.reppassword) return alert("Password does not match")
+      if(reg.password!==reg.reppassword) return alert("Password does not match")
       const resp = await axios.post("/user", {
         name:reg.name,
         password:reg.password,

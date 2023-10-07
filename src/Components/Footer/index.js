@@ -23,7 +23,7 @@ export default function Footer() {
  
   <div className="text-center p-3" style={{backgroundColor: "#1976d2 ",color:"whitesmoke"}}>
     DesignBy:Ashish Patel © 2022 Copyright:
-    <a className="text-dark" href="https://mdbootstrap.com/"  style={{textDecoration:"none",color:"whitesmoke"}}> Menty-talk.com</a>
+    <a className="text-dark" href="#"  style={{textDecoration:"none",color:"whitesmoke"}}> Menty-talk.com</a>
   </div>
  
 </footer>

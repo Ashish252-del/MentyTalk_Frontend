@@ -10,7 +10,7 @@ import axios from 'axios'
 import Ashish from '../../Images/Ashish.jpg'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { borderRadius } from '@mui/system'
+
 export default function AboutUs() {
      const navigate = useNavigate();
      const checkUser = async () => {
@@ -37,7 +37,7 @@ export default function AboutUs() {
             <div className="l col-sm-12 col-md-12 col-lg-4">
               <img
                 src={Ashish}
-                alt="image"
+                alt="My Pic"
                 style={{ height: "250px", width: "250px", borderRadius: "50%" }}
               />
 
